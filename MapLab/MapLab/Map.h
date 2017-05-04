@@ -17,4 +17,5 @@ public:
 	std::string GetPathBackToHome();
 	void Move(Location *newLocation);
 	Location * LookupLocationOnMap(int x, int y);
+	std::stack <Location *> Pathway;
 };
